@@ -1,4 +1,5 @@
 # Crazyflie + Phasespace (ROS 2)
+![Image](https://github.com/user-attachments/assets/d01af698-3d7d-4b2d-9b22-d2172bf69498)
 Robust ROS 2 workspace for flying Crazyflie nano-quadrotors using external motion capture from a Phasespace system. The project provides nodes and utilities for closed-loop control, log capture/replay for offline analysis, and PID tuning workflows.
 
 ---
