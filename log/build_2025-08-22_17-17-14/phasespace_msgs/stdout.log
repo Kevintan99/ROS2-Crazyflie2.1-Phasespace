@@ -1,0 +1,258 @@
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_generator_c[0m
+[  1%] Built target phasespace_msgs__cpp
+[ 12%] Built target phasespace_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_phasespace_msgs
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_c[0m
+[ 23%] Built target phasespace_msgs__rosidl_typesupport_introspection_c
+[ 43%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target phasespace_msgs__rosidl_typesupport_introspection_cpp
+[ 57%] Built target phasespace_msgs__rosidl_typesupport_cpp
+[ 69%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c
+[ 80%] Built target phasespace_msgs__rosidl_typesupport_c
+[ 80%] Built target phasespace_msgs
+[ 81%] Built target phasespace_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_generator_py[0m
+[ 91%] Built target phasespace_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] Built target phasespace_msgs__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target phasespace_msgs__rosidl_typesupport_c__pyext
+[100%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing phasespace_msgs.egg-info/PKG-INFO
+writing dependency_links to phasespace_msgs.egg-info/dependency_links.txt
+writing top-level names to phasespace_msgs.egg-info/top_level.txt
+reading manifest file 'phasespace_msgs.egg-info/SOURCES.txt'
+writing manifest file 'phasespace_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_phasespace_msgs_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/rosidl_interfaces/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__functions.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__functions.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.sh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.dsv
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__builder.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__traits.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.cpp
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/libphasespace_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/__init__.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid_s.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/__init__.py
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs'...
+Listing '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg'...
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.idl
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Cameras.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Markers.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Camera.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Marker.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigid.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigids.msg
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/package_run_dependencies/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/parent_prefix_path/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/path.sh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/path.dsv
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.bash
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.sh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.zsh
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.dsv
+-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/package.dsv
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/packages/phasespace_msgs
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport-release.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig-version.cmake
+-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/package.xml

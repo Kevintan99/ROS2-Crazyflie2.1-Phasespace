@@ -1,0 +1,15 @@
+bayes_opt_node:
+  ros__parameters:
+    param_names: ["xKp", "yKp", "zKp", "xKi", "yKi", "zKi"]
+    lower_bounds: [1.0, 1.0, 1.5, 0.0, 0.0, 0.0]  # More conservative lower bounds
+    upper_bounds: [3.0, 3.0, 4.0, 0.5, 0.5, 0.5]  # Much lower upper bounds
+    n_iter: 10  # Fewer iterations for testing
+    init_points: 3  # Fewer initial points
+    acquisition_type: "ucb"
+    kappa: 2.576
+    xi: 0.01
+    random_state: 42
+    objective_mode: "min"
+    timeout_sec: 60.0
+    continuous_publish: true
+    publish_rate_hz: 1.0

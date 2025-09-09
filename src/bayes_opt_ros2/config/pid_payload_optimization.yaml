@@ -1,0 +1,26 @@
+bayes_opt_node:
+  ros__parameters:
+    # PID parameters to optimize (Kp, Ki, Kd for X, Y, Z)
+    param_names: ["xKp", "yKp", "zKp", "xKi", "yKi", "zKi", "xKd", "yKd", "zKd"]
+    
+    # Conservative bounds for stable flight
+    lower_bounds: [0.5, 0.5, 0.5, 0.0, 0.0, 0.0, 0.2, 0.2, 0.2]
+    upper_bounds: [3.0, 3.0, 3.0, 0.3, 0.3, 0.3, 1.5, 1.5, 1.5]
+    
+    # Optimization settings
+    n_iter: 25          # More iterations for complex PID tuning
+    init_points: 5       # More initial random points
+    acquisition_type: "ucb"   # UCB for exploration vs exploitation balance
+    kappa: 2.0          # Higher kappa for more exploration
+    xi: 0.01
+    random_state: 42
+    objective_mode: "min"     # Minimize oscillation/error
+    timeout_sec: 300.0        # 5 minute timeout per experiment
+    
+    # Topics
+    topics.params_out: "/bayes_opt/params_to_test"
+    topics.result_in: "/bayes_opt/experiment_result"
+    topics.allow_in: "/bayes_opt/allow_step"
+    topics.status: "/bayes_opt/status"
+    topics.best_params: "/bayes_opt/best_params"
+    topics.best_value: "/bayes_opt/best_value" 

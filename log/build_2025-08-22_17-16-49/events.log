@@ -1,0 +1,780 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (bayes_opt_ros2) JobQueued: {'identifier': 'bayes_opt_ros2', 'dependencies': OrderedDict()}
+[0.000155] (phasespace_msgs) JobQueued: {'identifier': 'phasespace_msgs', 'dependencies': OrderedDict()}
+[0.000167] (phasespace_client) JobQueued: {'identifier': 'phasespace_client', 'dependencies': OrderedDict([('phasespace_msgs', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs')])}
+[0.000179] (phasespace_msgs) JobStarted: {'identifier': 'phasespace_msgs'}
+[0.003087] (bayes_opt_ros2) JobStarted: {'identifier': 'bayes_opt_ros2'}
+[0.006294] (phasespace_msgs) JobProgress: {'identifier': 'phasespace_msgs', 'progress': 'cmake'}
+[0.006558] (phasespace_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs', '-DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/phasespace_msgs'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008657] (bayes_opt_ros2) JobProgress: {'identifier': 'bayes_opt_ros2', 'progress': 'cmake'}
+[0.008994] (bayes_opt_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/kevin/crazyflie_phasespace/src/bayes_opt_ros2', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/bayes_opt_ros2'], 'cwd': '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099587] (-) TimerEvent: {}
+[0.145344] (phasespace_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.145541] (bayes_opt_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199702] (-) TimerEvent: {}
+[0.219500] (phasespace_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.219634] (bayes_opt_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.228678] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.228844] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.289065] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.289269] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.294116] (bayes_opt_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.294478] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.295041] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.297297] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298607] (phasespace_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298817] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299053] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299763] (-) TimerEvent: {}
+[0.302275] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.363752] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.366582] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.368746] (bayes_opt_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.368936] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.369287] (bayes_opt_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.371240] (bayes_opt_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.372220] (phasespace_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.372416] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372790] (phasespace_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.373864] (phasespace_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399901] (-) TimerEvent: {}
+[0.482056] (bayes_opt_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.483273] (phasespace_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500001] (-) TimerEvent: {}
+[0.540371] (phasespace_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.541832] (phasespace_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.545645] (phasespace_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.568849] (phasespace_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.582316] (bayes_opt_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.583811] (bayes_opt_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.584226] (bayes_opt_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.584326] (bayes_opt_ros2) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.584389] (bayes_opt_ros2) StderrLine: {'line': b'\n'}
+[0.584440] (bayes_opt_ros2) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.584493] (bayes_opt_ros2) StderrLine: {'line': b'\n'}
+[0.584547] (bayes_opt_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.585063] (bayes_opt_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2\n'}
+[0.589135] (bayes_opt_ros2) CommandEnded: {'returncode': 0}
+[0.589719] (bayes_opt_ros2) JobProgress: {'identifier': 'bayes_opt_ros2', 'progress': 'build'}
+[0.589736] (bayes_opt_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2', '--', '-j8', '-l8'], 'cwd': '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.590243] (phasespace_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.600103] (-) TimerEvent: {}
+[0.621199] (bayes_opt_ros2) CommandEnded: {'returncode': 0}
+[0.621727] (bayes_opt_ros2) JobProgress: {'identifier': 'bayes_opt_ros2', 'progress': 'install'}
+[0.628847] (bayes_opt_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2'], 'cwd': '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.635647] (bayes_opt_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.635795] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/lib/bayes_opt_ros2/ros2_bayes_opt_node.py\n'}
+[0.635884] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/package_run_dependencies/bayes_opt_ros2\n'}
+[0.635972] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/parent_prefix_path/bayes_opt_ros2\n'}
+[0.636070] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.sh\n'}
+[0.636127] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.dsv\n'}
+[0.636185] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.sh\n'}
+[0.636242] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.dsv\n'}
+[0.636301] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.bash\n'}
+[0.636377] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.sh\n'}
+[0.636453] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.zsh\n'}
+[0.636532] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.dsv\n'}
+[0.636614] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.dsv\n'}
+[0.636718] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/packages/bayes_opt_ros2\n'}
+[0.636806] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config.cmake\n'}
+[0.636886] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config-version.cmake\n'}
+[0.636969] (bayes_opt_ros2) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.xml\n'}
+[0.638519] (bayes_opt_ros2) CommandEnded: {'returncode': 0}
+[0.651342] (bayes_opt_ros2) JobEnded: {'identifier': 'bayes_opt_ros2', 'rc': 0}
+[0.700265] (-) TimerEvent: {}
+[0.800577] (-) TimerEvent: {}
+[0.803401] (phasespace_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900685] (-) TimerEvent: {}
+[0.948797] (phasespace_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000789] (-) TimerEvent: {}
+[1.101062] (-) TimerEvent: {}
+[1.140942] (phasespace_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.160833] (phasespace_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.161631] (phasespace_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.182180] (phasespace_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.182333] (phasespace_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.182388] (phasespace_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.182443] (phasespace_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.197065] (phasespace_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.201128] (-) TimerEvent: {}
+[1.242846] (phasespace_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.266780] (phasespace_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.274208] (phasespace_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kevin/crazyflie_phasespace/build/phasespace_msgs\n'}
+[1.278977] (phasespace_msgs) CommandEnded: {'returncode': 0}
+[1.279379] (phasespace_msgs) JobProgress: {'identifier': 'phasespace_msgs', 'progress': 'build'}
+[1.279530] (phasespace_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/crazyflie_phasespace/build/phasespace_msgs', '--', '-j8', '-l8'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.301256] (-) TimerEvent: {}
+[1.315350] (phasespace_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.324872] (phasespace_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.331556] (phasespace_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_phasespace_msgs\n'}
+[1.401439] (-) TimerEvent: {}
+[1.501688] (-) TimerEvent: {}
+[1.511017] (phasespace_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.511384] (phasespace_msgs) StdoutLine: {'line': b'creating phasespace_msgs.egg-info\n'}
+[1.511486] (phasespace_msgs) StdoutLine: {'line': b'writing phasespace_msgs.egg-info/PKG-INFO\n'}
+[1.511560] (phasespace_msgs) StdoutLine: {'line': b'writing dependency_links to phasespace_msgs.egg-info/dependency_links.txt\n'}
+[1.511634] (phasespace_msgs) StdoutLine: {'line': b'writing top-level names to phasespace_msgs.egg-info/top_level.txt\n'}
+[1.511866] (phasespace_msgs) StdoutLine: {'line': b"writing manifest file 'phasespace_msgs.egg-info/SOURCES.txt'\n"}
+[1.513233] (phasespace_msgs) StdoutLine: {'line': b"reading manifest file 'phasespace_msgs.egg-info/SOURCES.txt'\n"}
+[1.513574] (phasespace_msgs) StdoutLine: {'line': b"writing manifest file 'phasespace_msgs.egg-info/SOURCES.txt'\n"}
+[1.534451] (phasespace_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_phasespace_msgs_egg\n'}
+[1.601803] (-) TimerEvent: {}
+[1.702083] (-) TimerEvent: {}
+[1.728357] (phasespace_msgs) StdoutLine: {'line': b'[  2%] Built target phasespace_msgs__cpp\n'}
+[1.735377] (phasespace_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/camera__functions.c.o\x1b[0m\n'}
+[1.735580] (phasespace_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/cameras__functions.c.o\x1b[0m\n'}
+[1.736836] (phasespace_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/rigid__functions.c.o\x1b[0m\n'}
+[1.736975] (phasespace_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[1.737020] (phasespace_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/rigids__functions.c.o\x1b[0m\n'}
+[1.737060] (phasespace_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/markers__functions.c.o\x1b[0m\n'}
+[1.745961] (phasespace_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.746167] (phasespace_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.802436] (-) TimerEvent: {}
+[1.852020] (phasespace_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.853328] (phasespace_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libphasespace_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.886110] (phasespace_msgs) StdoutLine: {'line': b'[ 16%] Built target phasespace_msgs__rosidl_generator_c\n'}
+[1.897421] (phasespace_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.899708] (phasespace_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.899866] (phasespace_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.905669] (-) TimerEvent: {}
+[2.005945] (-) TimerEvent: {}
+[2.106226] (-) TimerEvent: {}
+[2.129657] (phasespace_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/camera__type_support.cpp.o\x1b[0m\n'}
+[2.129851] (phasespace_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/cameras__type_support.cpp.o\x1b[0m\n'}
+[2.129972] (phasespace_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[2.206335] (-) TimerEvent: {}
+[2.258744] (phasespace_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/camera__type_support.cpp.o\x1b[0m\n'}
+[2.306441] (-) TimerEvent: {}
+[2.349280] (phasespace_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/camera__type_support.cpp.o\x1b[0m\n'}
+[2.360555] (phasespace_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/camera__type_support.cpp.o\x1b[0m\n'}
+[2.400109] (phasespace_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/cameras__type_support.cpp.o\x1b[0m\n'}
+[2.406555] (-) TimerEvent: {}
+[2.432546] (phasespace_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/camera__type_support_c.cpp.o\x1b[0m\n'}
+[2.438914] (phasespace_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[2.464310] (phasespace_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/cameras__type_support.cpp.o\x1b[0m\n'}
+[2.464525] (phasespace_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[2.472034] (phasespace_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/rigid__type_support.cpp.o\x1b[0m\n'}
+[2.475450] (phasespace_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[2.508693] (-) TimerEvent: {}
+[2.516962] (phasespace_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/rigid__type_support.cpp.o\x1b[0m\n'}
+[2.521758] (phasespace_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/camera__type_support.c.o\x1b[0m\n'}
+[2.554675] (phasespace_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/rigids__type_support.cpp.o\x1b[0m\n'}
+[2.570599] (phasespace_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/cameras__type_support.c.o\x1b[0m\n'}
+[2.595630] (phasespace_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.608801] (-) TimerEvent: {}
+[2.627262] (phasespace_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[2.652441] (phasespace_msgs) StdoutLine: {'line': b'[ 47%] Built target phasespace_msgs__rosidl_typesupport_c\n'}
+[2.665359] (phasespace_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/rigids__type_support.cpp.o\x1b[0m\n'}
+[2.674978] (phasespace_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/markers__type_support.c.o\x1b[0m\n'}
+[2.708918] (-) TimerEvent: {}
+[2.712757] (phasespace_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/cameras__type_support.cpp.o\x1b[0m\n'}
+[2.733729] (phasespace_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/rigid__type_support.c.o\x1b[0m\n'}
+[2.774114] (phasespace_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/cameras__type_support_c.cpp.o\x1b[0m\n'}
+[2.783564] (phasespace_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/rigids__type_support.c.o\x1b[0m\n'}
+[2.788419] (phasespace_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/marker__type_support.cpp.o\x1b[0m\n'}
+[2.809039] (-) TimerEvent: {}
+[2.840936] (phasespace_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libphasespace_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.841136] (phasespace_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/markers__type_support.cpp.o\x1b[0m\n'}
+[2.855692] (phasespace_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/rigid__type_support.cpp.o\x1b[0m\n'}
+[2.884931] (phasespace_msgs) StdoutLine: {'line': b'[ 61%] Built target phasespace_msgs__rosidl_typesupport_introspection_c\n'}
+[2.899684] (phasespace_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/rigids__type_support.cpp.o\x1b[0m\n'}
+[2.909154] (-) TimerEvent: {}
+[2.948264] (phasespace_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o\x1b[0m\n'}
+[2.977147] (phasespace_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.009265] (-) TimerEvent: {}
+[3.036719] (phasespace_msgs) StdoutLine: {'line': b'[ 66%] Built target phasespace_msgs__rosidl_typesupport_cpp\n'}
+[3.047441] (phasespace_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/marker__type_support_c.cpp.o\x1b[0m\n'}
+[3.109383] (-) TimerEvent: {}
+[3.192129] (phasespace_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o\x1b[0m\n'}
+[3.209498] (-) TimerEvent: {}
+[3.222415] (phasespace_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/rigid__type_support.cpp.o\x1b[0m\n'}
+[3.228713] (phasespace_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/markers__type_support_c.cpp.o\x1b[0m\n'}
+[3.306994] (phasespace_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/rigids__type_support.cpp.o\x1b[0m\n'}
+[3.310694] (-) TimerEvent: {}
+[3.347093] (phasespace_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/rigid__type_support_c.cpp.o\x1b[0m\n'}
+[3.410816] (-) TimerEvent: {}
+[3.414673] (phasespace_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.414909] (phasespace_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/rigids__type_support_c.cpp.o\x1b[0m\n'}
+[3.503604] (phasespace_msgs) StdoutLine: {'line': b'[ 77%] Built target phasespace_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.510929] (-) TimerEvent: {}
+[3.611281] (-) TimerEvent: {}
+[3.687264] (phasespace_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.711401] (-) TimerEvent: {}
+[3.749442] (phasespace_msgs) StdoutLine: {'line': b'[ 78%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.777760] (phasespace_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.811523] (-) TimerEvent: {}
+[3.839063] (phasespace_msgs) StdoutLine: {'line': b'[ 80%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.858708] (phasespace_msgs) StdoutLine: {'line': b'[ 80%] Built target phasespace_msgs\n'}
+[3.882505] (phasespace_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.911704] (-) TimerEvent: {}
+[4.012051] (-) TimerEvent: {}
+[4.112376] (-) TimerEvent: {}
+[4.212682] (-) TimerEvent: {}
+[4.312974] (-) TimerEvent: {}
+[4.413219] (-) TimerEvent: {}
+[4.426482] (phasespace_msgs) StdoutLine: {'line': b'[ 81%] Built target phasespace_msgs__py\n'}
+[4.446035] (phasespace_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_rigid_s.c.o\x1b[0m\n'}
+[4.446229] (phasespace_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_camera_s.c.o\x1b[0m\n'}
+[4.446968] (phasespace_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_cameras_s.c.o\x1b[0m\n'}
+[4.447285] (phasespace_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_markers_s.c.o\x1b[0m\n'}
+[4.447405] (phasespace_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_marker_s.c.o\x1b[0m\n'}
+[4.447508] (phasespace_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_rigids_s.c.o\x1b[0m\n'}
+[4.513329] (-) TimerEvent: {}
+[4.610599] (phasespace_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/phasespace_msgs/libphasespace_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.613406] (-) TimerEvent: {}
+[4.644451] (phasespace_msgs) StdoutLine: {'line': b'[ 91%] Built target phasespace_msgs__rosidl_generator_py\n'}
+[4.664475] (phasespace_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.664674] (phasespace_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.664721] (phasespace_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.713613] (-) TimerEvent: {}
+[4.783211] (phasespace_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.783391] (phasespace_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.783434] (phasespace_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.813680] (-) TimerEvent: {}
+[4.815461] (phasespace_msgs) StdoutLine: {'line': b'[100%] Built target phasespace_msgs__rosidl_typesupport_c__pyext\n'}
+[4.815646] (phasespace_msgs) StdoutLine: {'line': b'[100%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.815712] (phasespace_msgs) StdoutLine: {'line': b'[100%] Built target phasespace_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.825719] (phasespace_msgs) CommandEnded: {'returncode': 0}
+[4.826234] (phasespace_msgs) JobProgress: {'identifier': 'phasespace_msgs', 'progress': 'install'}
+[4.826372] (phasespace_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevin/crazyflie_phasespace/build/phasespace_msgs'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.833571] (phasespace_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.833692] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/rosidl_interfaces/phasespace_msgs\n'}
+[4.833737] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.833804] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.833848] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.h\n'}
+[4.833884] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.h\n'}
+[4.833939] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.h\n'}
+[4.833974] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.h\n'}
+[4.834009] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.834087] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.h\n'}
+[4.834147] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.834192] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__functions.h\n'}
+[4.834235] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.h\n'}
+[4.834270] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.h\n'}
+[4.834304] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__functions.h\n'}
+[4.834353] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__functions.c\n'}
+[4.834411] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__functions.h\n'}
+[4.834460] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.h\n'}
+[4.834495] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__functions.h\n'}
+[4.834529] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.h\n'}
+[4.834584] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__functions.h\n'}
+[4.834622] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.h\n'}
+[4.834670] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.h\n'}
+[4.834704] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__functions.h\n'}
+[4.834758] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.h\n'}
+[4.834808] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__functions.c\n'}
+[4.834859] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__functions.c\n'}
+[4.834914] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.h\n'}
+[4.834949] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.h\n'}
+[4.834999] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__functions.c\n'}
+[4.835050] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.h\n'}
+[4.835103] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__functions.c\n'}
+[4.835153] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.h\n'}
+[4.835204] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.h\n'}
+[4.835287] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__functions.c\n'}
+[4.835322] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.h\n'}
+[4.835371] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.sh\n'}
+[4.835422] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.dsv\n'}
+[4.835844] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_c.so\n'}
+[4.836034] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_c.so" to ""\n'}
+[4.836120] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.836182] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.836239] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.836290] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.836349] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836385] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836421] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836471] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836517] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836576] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_c.h\n'}
+[4.836651] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.836808] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.836894] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.836955] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.837016] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.837103] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.837163] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h\n'}
+[4.837223] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.c\n'}
+[4.837282] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.c\n'}
+[4.837358] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.c\n'}
+[4.837392] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.c\n'}
+[4.837427] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_c.h\n'}
+[4.837461] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_c.h\n'}
+[4.837495] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.c\n'}
+[4.837532] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_c.h\n'}
+[4.837602] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_c.h\n'}
+[4.837668] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.c\n'}
+[4.837726] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[4.837786] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.837866] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.837924] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_c.so\n'}
+[4.838007] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.838079] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.838140] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.838199] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.hpp\n'}
+[4.838285] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.hpp\n'}
+[4.838344] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.838404] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.hpp\n'}
+[4.838464] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.hpp\n'}
+[4.838523] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.hpp\n'}
+[4.838610] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.hpp\n'}
+[4.838677] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.838762] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__builder.hpp\n'}
+[4.838824] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.hpp\n'}
+[4.838884] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__builder.hpp\n'}
+[4.838943] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__builder.hpp\n'}
+[4.839001] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__builder.hpp\n'}
+[4.839060] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.hpp\n'}
+[4.839119] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.hpp\n'}
+[4.839178] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__traits.hpp\n'}
+[4.839267] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.hpp\n'}
+[4.839327] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__traits.hpp\n'}
+[4.839368] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.hpp\n'}
+[4.839414] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.hpp\n'}
+[4.839449] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.hpp\n'}
+[4.839483] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.hpp\n'}
+[4.839518] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__builder.hpp\n'}
+[4.839555] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.hpp\n'}
+[4.839590] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.hpp\n'}
+[4.839629] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__traits.hpp\n'}
+[4.839668] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__traits.hpp\n'}
+[4.839721] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__builder.hpp\n'}
+[4.839759] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.hpp\n'}
+[4.839823] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__traits.hpp\n'}
+[4.839862] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.hpp\n'}
+[4.839898] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__traits.hpp\n'}
+[4.839933] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.839968] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.840004] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.840069] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.840105] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/dds_fastrtps\n'}
+[4.840165] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840224] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840285] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840358] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840418] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840477] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.840536] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.840596] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.840690] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs\n'}
+[4.840761] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg\n'}
+[4.840822] (phasespace_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail\n'}
+[4.840881] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.840940] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.cpp\n'}
+[4.840999] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.841053] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.841107] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.cpp\n'}
+[4.841165] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.841222] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.841297] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.cpp\n'}
+[4.841385] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.cpp\n'}
+[4.841459] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.841520] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.cpp\n'}
+[4.841579] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.cpp\n'}
+[4.841668] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.841739] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.841798] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_cpp.so\n'}
+[4.841857] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.841916] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.sh\n'}
+[4.841975] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.dsv\n'}
+[4.842034] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info\n'}
+[4.842094] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.842191] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.842252] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.842312] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.842372] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs\n'}
+[4.842431] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/libphasespace_msgs__rosidl_generator_py.so\n'}
+[4.842489] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.842546] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg\n'}
+[4.842604] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras_s.c\n'}
+[4.842695] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera_s.c\n'}
+[4.842757] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker_s.c\n'}
+[4.842817] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids_s.c\n'}
+[4.842876] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers.py\n'}
+[4.842953] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers_s.c\n'}
+[4.842988] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid.py\n'}
+[4.843022] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker.py\n'}
+[4.843057] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/__init__.py\n'}
+[4.843091] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera.py\n'}
+[4.843125] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids.py\n'}
+[4.843171] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras.py\n'}
+[4.843204] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid_s.c\n'}
+[4.843239] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.843271] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.843303] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.843336] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.843368] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/__init__.py\n'}
+[4.843399] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.870545] (phasespace_msgs) StdoutLine: {'line': b"Listing '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs'...\n"}
+[4.870673] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/__init__.py'...\n"}
+[4.870717] (phasespace_msgs) StdoutLine: {'line': b"Listing '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg'...\n"}
+[4.870752] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/__init__.py'...\n"}
+[4.870787] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera.py'...\n"}
+[4.870821] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras.py'...\n"}
+[4.870860] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker.py'...\n"}
+[4.870894] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers.py'...\n"}
+[4.870927] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid.py'...\n"}
+[4.870961] (phasespace_msgs) StdoutLine: {'line': b"Compiling '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids.py'...\n"}
+[4.873867] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.874060] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.874126] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.874255] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.874338] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.874468] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.874517] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_py.so\n'}
+[4.874714] (phasespace_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_py.so" to ""\n'}
+[4.874801] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.idl\n'}
+[4.874873] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.idl\n'}
+[4.874948] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.idl\n'}
+[4.875023] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.idl\n'}
+[4.875117] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.idl\n'}
+[4.875178] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.idl\n'}
+[4.875256] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.msg\n'}
+[4.875294] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.msg\n'}
+[4.875339] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.msg\n'}
+[4.875386] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.msg\n'}
+[4.875427] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.msg\n'}
+[4.875484] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.msg\n'}
+[4.875543] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg\n'}
+[4.875587] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Cameras.msg\n'}
+[4.875642] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Markers.msg\n'}
+[4.875691] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Camera.msg\n'}
+[4.875738] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Marker.msg\n'}
+[4.875784] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigid.msg\n'}
+[4.875829] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigids.msg\n'}
+[4.875919] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/package_run_dependencies/phasespace_msgs\n'}
+[4.876009] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/parent_prefix_path/phasespace_msgs\n'}
+[4.876078] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.sh\n'}
+[4.876143] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.dsv\n'}
+[4.876207] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/path.sh\n'}
+[4.876273] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/environment/path.dsv\n'}
+[4.876338] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.bash\n'}
+[4.876401] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.sh\n'}
+[4.876463] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.zsh\n'}
+[4.876526] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/local_setup.dsv\n'}
+[4.876591] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/package.dsv\n'}
+[4.876682] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/ament_index/resource_index/packages/phasespace_msgs\n'}
+[4.876773] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport.cmake\n'}
+[4.876849] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport-release.cmake\n'}
+[4.876923] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.876995] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[4.877070] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.877140] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[4.877214] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.877284] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[4.877355] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.877430] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.877500] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[4.877572] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.877652] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[4.877725] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.877792] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[4.877878] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.877949] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[4.878015] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.878080] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.878165] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.878233] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.878300] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.878362] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.878427] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.878491] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig.cmake\n'}
+[4.878544] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig-version.cmake\n'}
+[4.878611] (phasespace_msgs) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/package.xml\n'}
+[4.880311] (phasespace_msgs) CommandEnded: {'returncode': 0}
+[4.889584] (phasespace_msgs) JobEnded: {'identifier': 'phasespace_msgs', 'rc': 0}
+[4.889955] (phasespace_client) JobStarted: {'identifier': 'phasespace_client'}
+[4.897173] (phasespace_client) JobProgress: {'identifier': 'phasespace_client', 'progress': 'cmake'}
+[4.897409] (phasespace_client) Command: {'cmd': ['/usr/bin/cmake', '/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client', '-DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/phasespace_client'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_client', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble')]), 'shell': False}
+[4.913774] (-) TimerEvent: {}
+[4.946354] (phasespace_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.998543] (phasespace_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.004231] (phasespace_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.013858] (-) TimerEvent: {}
+[5.077890] (phasespace_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.082671] (phasespace_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.082765] (phasespace_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.082965] (phasespace_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.084868] (phasespace_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.113997] (-) TimerEvent: {}
+[5.151284] (phasespace_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.156349] (phasespace_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.156469] (phasespace_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.156834] (phasespace_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.158141] (phasespace_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.214104] (-) TimerEvent: {}
+[5.261825] (phasespace_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.314267] (-) TimerEvent: {}
+[5.319765] (phasespace_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.345067] (phasespace_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.347626] (phasespace_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.351902] (phasespace_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.358993] (phasespace_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.367608] (phasespace_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.408924] (phasespace_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.411531] (phasespace_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.414337] (-) TimerEvent: {}
+[5.514628] (-) TimerEvent: {}
+[5.518085] (phasespace_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.543194] (phasespace_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.570465] (phasespace_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.578855] (phasespace_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.614733] (-) TimerEvent: {}
+[5.643845] (phasespace_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.644157] (phasespace_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.712718] (phasespace_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.713544] (phasespace_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.714781] (-) TimerEvent: {}
+[5.764802] (phasespace_client) StdoutLine: {'line': b'-- Found phasespace_msgs: 0.0.0 (/home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake)\n'}
+[5.777688] (phasespace_client) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.814883] (-) TimerEvent: {}
+[5.840013] (phasespace_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.864139] (phasespace_client) StdoutLine: {'line': b'-- Generating done\n'}
+[5.868142] (phasespace_client) StdoutLine: {'line': b'-- Build files have been written to: /home/kevin/crazyflie_phasespace/build/phasespace_client\n'}
+[5.879165] (phasespace_client) CommandEnded: {'returncode': 0}
+[5.879670] (phasespace_client) JobProgress: {'identifier': 'phasespace_client', 'progress': 'build'}
+[5.879865] (phasespace_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/crazyflie_phasespace/build/phasespace_client', '--', '-j8', '-l8'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_client', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble')]), 'shell': False}
+[5.915002] (-) TimerEvent: {}
+[5.929327] (phasespace_client) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_client.dir/src/psnode.cpp.o\x1b[0m\n'}
+[5.929477] (phasespace_client) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[6.015122] (-) TimerEvent: {}
+[6.115412] (-) TimerEvent: {}
+[6.215775] (-) TimerEvent: {}
+[6.316070] (-) TimerEvent: {}
+[6.416457] (-) TimerEvent: {}
+[6.516823] (-) TimerEvent: {}
+[6.617196] (-) TimerEvent: {}
+[6.717566] (-) TimerEvent: {}
+[6.817953] (-) TimerEvent: {}
+[6.918313] (-) TimerEvent: {}
+[7.018603] (-) TimerEvent: {}
+[7.118965] (-) TimerEvent: {}
+[7.219367] (-) TimerEvent: {}
+[7.319739] (-) TimerEvent: {}
+[7.420123] (-) TimerEvent: {}
+[7.520425] (-) TimerEvent: {}
+[7.620812] (-) TimerEvent: {}
+[7.677848] (phasespace_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.678068] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.678141] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.678204] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.678263] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.678323] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.678381] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.678438] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.678497] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.678557] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.678616] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.678685] (phasespace_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:2\x1b[m\x1b[K:\n'}
+[7.678744] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ListenerNode::markerCallback(phasespace_msgs::msg::Markers_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.678804] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kphasespace_msgs::msg::Marker_<std::allocator<void> >::_time_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.678882] (phasespace_client) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[K"t=%f id=%d [%f %f %f] cond=%f"\x1b[m\x1b[K,\n'}
+[7.678941] (phasespace_client) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.678999] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:47:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[7.679059] (phasespace_client) StderrLine: {'line': b'   47 |         "t=\x1b[01;36m\x1b[K%f\x1b[m\x1b[K id=%d [%f %f %f] cond=%f",\n'}
+[7.679113] (phasespace_client) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[7.679169] (phasespace_client) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[7.679226] (phasespace_client) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[7.679282] (phasespace_client) StderrLine: {'line': b'      |            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[7.720933] (-) TimerEvent: {}
+[7.820984] (phasespace_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11\x1b[m\x1b[K:\n'}
+[7.821179] (-) TimerEvent: {}
+[7.821301] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint seek_next(std::string*, int, char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.821399] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:514:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.821466] (phasespace_client) StderrLine: {'line': b'  514 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[7.821524] (phasespace_client) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.921316] (-) TimerEvent: {}
+[8.021662] (-) TimerEvent: {}
+[8.121999] (-) TimerEvent: {}
+[8.222335] (-) TimerEvent: {}
+[8.322693] (-) TimerEvent: {}
+[8.423049] (-) TimerEvent: {}
+[8.523404] (-) TimerEvent: {}
+[8.623769] (-) TimerEvent: {}
+[8.724202] (-) TimerEvent: {}
+[8.824583] (-) TimerEvent: {}
+[8.924978] (-) TimerEvent: {}
+[9.025338] (-) TimerEvent: {}
+[9.125646] (-) TimerEvent: {}
+[9.225991] (-) TimerEvent: {}
+[9.326360] (-) TimerEvent: {}
+[9.426733] (-) TimerEvent: {}
+[9.527091] (-) TimerEvent: {}
+[9.627463] (-) TimerEvent: {}
+[9.727836] (-) TimerEvent: {}
+[9.780452] (phasespace_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11\x1b[m\x1b[K:\n'}
+[9.780680] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string to_string(RSJresourceType)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.780765] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:65:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.780838] (phasespace_client) StderrLine: {'line': b'   65 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[9.780901] (phasespace_client) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.827956] (-) TimerEvent: {}
+[9.928305] (-) TimerEvent: {}
+[10.028659] (-) TimerEvent: {}
+[10.129016] (-) TimerEvent: {}
+[10.229445] (-) TimerEvent: {}
+[10.329821] (-) TimerEvent: {}
+[10.430193] (-) TimerEvent: {}
+[10.530540] (-) TimerEvent: {}
+[10.630774] (-) TimerEvent: {}
+[10.731144] (-) TimerEvent: {}
+[10.831442] (-) TimerEvent: {}
+[10.931811] (-) TimerEvent: {}
+[11.032167] (-) TimerEvent: {}
+[11.132504] (-) TimerEvent: {}
+[11.232865] (-) TimerEvent: {}
+[11.333201] (-) TimerEvent: {}
+[11.433551] (-) TimerEvent: {}
+[11.533917] (-) TimerEvent: {}
+[11.634171] (-) TimerEvent: {}
+[11.734520] (-) TimerEvent: {}
+[11.834868] (-) TimerEvent: {}
+[11.935150] (-) TimerEvent: {}
+[12.035437] (-) TimerEvent: {}
+[12.135805] (-) TimerEvent: {}
+[12.236144] (-) TimerEvent: {}
+[12.336451] (-) TimerEvent: {}
+[12.436794] (-) TimerEvent: {}
+[12.537133] (-) TimerEvent: {}
+[12.637463] (-) TimerEvent: {}
+[12.737793] (-) TimerEvent: {}
+[12.838128] (-) TimerEvent: {}
+[12.938457] (-) TimerEvent: {}
+[13.038800] (-) TimerEvent: {}
+[13.139150] (-) TimerEvent: {}
+[13.202326] (phasespace_client) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[13.239274] (-) TimerEvent: {}
+[13.339640] (-) TimerEvent: {}
+[13.347644] (phasespace_client) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[13.439735] (-) TimerEvent: {}
+[13.539990] (-) TimerEvent: {}
+[13.640295] (-) TimerEvent: {}
+[13.740552] (-) TimerEvent: {}
+[13.840805] (-) TimerEvent: {}
+[13.941076] (-) TimerEvent: {}
+[14.041350] (-) TimerEvent: {}
+[14.124839] (phasespace_client) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libphasespace_client.a\x1b[0m\n'}
+[14.141473] (-) TimerEvent: {}
+[14.241769] (-) TimerEvent: {}
+[14.342154] (-) TimerEvent: {}
+[14.382655] (phasespace_client) StdoutLine: {'line': b'[ 66%] Built target phasespace_client\n'}
+[14.402181] (phasespace_client) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/phasespace_client_node.dir/src/psnode.cpp.o\x1b[0m\n'}
+[14.442256] (-) TimerEvent: {}
+[14.542573] (-) TimerEvent: {}
+[14.642908] (-) TimerEvent: {}
+[14.743241] (-) TimerEvent: {}
+[14.843600] (-) TimerEvent: {}
+[14.943952] (-) TimerEvent: {}
+[15.044394] (-) TimerEvent: {}
+[15.144663] (-) TimerEvent: {}
+[15.244916] (-) TimerEvent: {}
+[15.345195] (-) TimerEvent: {}
+[15.445465] (-) TimerEvent: {}
+[15.545804] (-) TimerEvent: {}
+[15.646095] (-) TimerEvent: {}
+[15.746424] (-) TimerEvent: {}
+[15.846778] (-) TimerEvent: {}
+[15.947074] (-) TimerEvent: {}
+[16.047333] (-) TimerEvent: {}
+[16.078267] (phasespace_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11\x1b[m\x1b[K:\n'}
+[16.078405] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint seek_next(std::string*, int, char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.078444] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:514:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.078491] (phasespace_client) StderrLine: {'line': b'  514 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[16.078524] (phasespace_client) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.147429] (-) TimerEvent: {}
+[16.247701] (-) TimerEvent: {}
+[16.347957] (-) TimerEvent: {}
+[16.448266] (-) TimerEvent: {}
+[16.548541] (-) TimerEvent: {}
+[16.648802] (-) TimerEvent: {}
+[16.749069] (-) TimerEvent: {}
+[16.849320] (-) TimerEvent: {}
+[16.949613] (-) TimerEvent: {}
+[17.049917] (-) TimerEvent: {}
+[17.150191] (-) TimerEvent: {}
+[17.250472] (-) TimerEvent: {}
+[17.350732] (-) TimerEvent: {}
+[17.451039] (-) TimerEvent: {}
+[17.551288] (-) TimerEvent: {}
+[17.651534] (-) TimerEvent: {}
+[17.751831] (-) TimerEvent: {}
+[17.852176] (-) TimerEvent: {}
+[17.952510] (-) TimerEvent: {}
+[17.959284] (phasespace_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11\x1b[m\x1b[K:\n'}
+[17.959392] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string to_string(RSJresourceType)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.959431] (phasespace_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:65:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.959466] (phasespace_client) StderrLine: {'line': b'   65 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[17.959499] (phasespace_client) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.052655] (-) TimerEvent: {}
+[18.152906] (-) TimerEvent: {}
+[18.253175] (-) TimerEvent: {}
+[18.353474] (-) TimerEvent: {}
+[18.453745] (-) TimerEvent: {}
+[18.554035] (-) TimerEvent: {}
+[18.654284] (-) TimerEvent: {}
+[18.754554] (-) TimerEvent: {}
+[18.854817] (-) TimerEvent: {}
+[18.955156] (-) TimerEvent: {}
+[19.055406] (-) TimerEvent: {}
+[19.155669] (-) TimerEvent: {}
+[19.255963] (-) TimerEvent: {}
+[19.356310] (-) TimerEvent: {}
+[19.456721] (-) TimerEvent: {}
+[19.557045] (-) TimerEvent: {}
+[19.657375] (-) TimerEvent: {}
+[19.757628] (-) TimerEvent: {}
+[19.857959] (-) TimerEvent: {}
+[19.958244] (-) TimerEvent: {}
+[20.058648] (-) TimerEvent: {}
+[20.158920] (-) TimerEvent: {}
+[20.259192] (-) TimerEvent: {}
+[20.359562] (-) TimerEvent: {}
+[20.459816] (-) TimerEvent: {}
+[20.560102] (-) TimerEvent: {}
+[20.660348] (-) TimerEvent: {}
+[20.760601] (-) TimerEvent: {}
+[20.860860] (-) TimerEvent: {}
+[20.961188] (-) TimerEvent: {}
+[21.061520] (-) TimerEvent: {}
+[21.161818] (-) TimerEvent: {}
+[21.262130] (-) TimerEvent: {}
+[21.362462] (-) TimerEvent: {}
+[21.462771] (-) TimerEvent: {}
+[21.563076] (-) TimerEvent: {}
+[21.663401] (-) TimerEvent: {}
+[21.763697] (-) TimerEvent: {}
+[21.863953] (-) TimerEvent: {}
+[21.964260] (-) TimerEvent: {}
+[22.064510] (-) TimerEvent: {}
+[22.164779] (-) TimerEvent: {}
+[22.177976] (phasespace_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable phasespace_client_node\x1b[0m\n'}
+[22.264959] (-) TimerEvent: {}
+[22.281417] (phasespace_client) StdoutLine: {'line': b'[100%] Built target phasespace_client_node\n'}
+[22.290318] (phasespace_client) CommandEnded: {'returncode': 0}
+[22.290905] (phasespace_client) JobProgress: {'identifier': 'phasespace_client', 'progress': 'install'}
+[22.291194] (phasespace_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevin/crazyflie_phasespace/build/phasespace_client'], 'cwd': '/home/kevin/crazyflie_phasespace/build/phasespace_client', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'kevin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/kevin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1401'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7628'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:13628'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/kevin/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/kevin/miniforge3/condabin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kevin-ZenBook-UX363EA-UX363EA:@/tmp/.ICE-unix/1541,unix/kevin-ZenBook-UX363EA-UX363EA:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '3407e915f35b494f8abe93d182f8b996'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/kevin/miniforge3'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8M5SB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kevin/miniforge3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:25af6f7d-8b55-48b4-937c-df002289bfb3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MAMBA_EXE', '/home/kevin/miniforge3/bin/mamba'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/crazyflie_phasespace/build/phasespace_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kevin/miniforge3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble')]), 'shell': False}
+[22.297705] (phasespace_client) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.297828] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/listener\n'}
+[22.298414] (phasespace_client) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/listener" to ""\n'}
+[22.298456] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/phasespace_client_node\n'}
+[22.298978] (phasespace_client) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/phasespace_client_node" to ""\n'}
+[22.299021] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch\n'}
+[22.299064] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/test_bridge.launch.py\n'}
+[22.299150] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/phasespace.launch.py\n'}
+[22.299240] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/package_run_dependencies/phasespace_client\n'}
+[22.299356] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/parent_prefix_path/phasespace_client\n'}
+[22.299471] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.sh\n'}
+[22.299511] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.dsv\n'}
+[22.299584] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.sh\n'}
+[22.299637] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.dsv\n'}
+[22.299680] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.bash\n'}
+[22.299728] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.sh\n'}
+[22.299792] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.zsh\n'}
+[22.299850] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.dsv\n'}
+[22.299908] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.dsv\n'}
+[22.299984] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/packages/phasespace_client\n'}
+[22.300057] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig.cmake\n'}
+[22.300102] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig-version.cmake\n'}
+[22.300163] (phasespace_client) StdoutLine: {'line': b'-- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.xml\n'}
+[22.301421] (phasespace_client) CommandEnded: {'returncode': 0}
+[22.308646] (phasespace_client) JobEnded: {'identifier': 'phasespace_client', 'rc': 0}
+[22.309067] (-) EventReactorShutdown: {}

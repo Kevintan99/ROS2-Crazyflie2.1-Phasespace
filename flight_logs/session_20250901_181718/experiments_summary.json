@@ -1,0 +1,142 @@
+[
+  {
+    "experiment_id": "exp_000",
+    "iteration": 0,
+    "start_time": "2025-09-01T18:17:36.682259",
+    "end_time": "2025-09-01T18:17:42.706328",
+    "pid_parameters": {
+      "kp_x": 0.5,
+      "kp_y": 0.5,
+      "kp_z": 0.5,
+      "ki_x": 0.1,
+      "ki_y": 0.1,
+      "ki_z": 0.1,
+      "kd_x": 0.35,
+      "kd_y": 0.35,
+      "kd_z": 0.45
+    },
+    "final_error": 0.04206194651227671,
+    "success": true,
+    "statistics": {
+      "total_samples": 120,
+      "mean_error": 0.289661059880347,
+      "rmse": 0.41348182414598966,
+      "max_error": 0.7408392040593871,
+      "min_error": 0.015650129179185294,
+      "std_error": 0.295065567777891,
+      "median_error": 0.11584974147415619,
+      "steady_state_mean": 0.11392498786587181,
+      "steady_state_rmse": 0.1822305010193479,
+      "steady_state_std": 0.14222887414840746,
+      "x_axis_rmse": 0.3815535389546992,
+      "y_axis_rmse": 0.37406592424557455,
+      "z_axis_rmse": 0.19796047363866398,
+      "max_displacement": 0.7696333085820289
+    }
+  },
+  {
+    "experiment_id": "exp_001",
+    "iteration": 1,
+    "start_time": "2025-09-01T18:17:44.605073",
+    "end_time": "2025-09-01T18:17:49.631979",
+    "pid_parameters": {
+      "kp_x": 0.5,
+      "kp_y": 0.5,
+      "kp_z": 0.25,
+      "ki_x": 0.1,
+      "ki_y": 0.1,
+      "ki_z": 0.1,
+      "kd_x": 0.35,
+      "kd_y": 0.35,
+      "kd_z": 0.45
+    },
+    "final_error": 0.24293800408254398,
+    "success": true,
+    "statistics": {
+      "total_samples": 100,
+      "mean_error": 0.1531718905581028,
+      "rmse": 0.1771871572835718,
+      "max_error": 0.2454872244875738,
+      "min_error": 0.021614661675516098,
+      "std_error": 0.08907109884294571,
+      "median_error": 0.20315003293542822,
+      "steady_state_mean": 0.20407682570571964,
+      "steady_state_rmse": 0.21053185816114398,
+      "steady_state_std": 0.05173308912737949,
+      "x_axis_rmse": 0.516749389730923,
+      "y_axis_rmse": 0.5046542246465555,
+      "z_axis_rmse": 0.12140606386486072,
+      "max_displacement": 0.7653256168745521
+    }
+  },
+  {
+    "experiment_id": "exp_002",
+    "iteration": 2,
+    "start_time": "2025-09-01T18:17:51.506676",
+    "end_time": "2025-09-01T18:17:56.533139",
+    "pid_parameters": {
+      "kp_x": 0.5,
+      "kp_y": 0.5,
+      "kp_z": 0.5,
+      "ki_x": 0.1,
+      "ki_y": 0.1,
+      "ki_z": 0.1,
+      "kd_x": 0.35,
+      "kd_y": 0.35,
+      "kd_z": 0.45
+    },
+    "final_error": 0.02436455296391115,
+    "success": true,
+    "statistics": {
+      "total_samples": 100,
+      "mean_error": 0.10021383615270979,
+      "rmse": 0.13919165431310668,
+      "max_error": 0.2507420853380972,
+      "min_error": 0.012304805875693213,
+      "std_error": 0.0965997084569991,
+      "median_error": 0.026020608697759087,
+      "steady_state_mean": 0.04185380280838942,
+      "steady_state_rmse": 0.05990661829350282,
+      "steady_state_std": 0.04286096249315805,
+      "x_axis_rmse": 0.5121721847855281,
+      "y_axis_rmse": 0.5021848526081125,
+      "z_axis_rmse": 0.15859395768725204,
+      "max_displacement": 0.756801608264578
+    }
+  },
+  {
+    "experiment_id": "exp_003",
+    "iteration": 3,
+    "start_time": "2025-09-01T18:17:58.342262",
+    "end_time": "2025-09-01T18:18:05.382123",
+    "pid_parameters": {
+      "kp_x": 0.0,
+      "kp_y": 0.0,
+      "kp_z": 0.5,
+      "ki_x": 0.1,
+      "ki_y": 0.1,
+      "ki_z": 0.1,
+      "kd_x": 0.35,
+      "kd_y": 0.35,
+      "kd_z": 0.45
+    },
+    "final_error": 0.028733260795239104,
+    "success": true,
+    "statistics": {
+      "total_samples": 140,
+      "mean_error": 0.2730086720699754,
+      "rmse": 0.3895803165448937,
+      "max_error": 0.722042691640971,
+      "min_error": 0.028733260795239104,
+      "std_error": 0.27791921130754565,
+      "median_error": 0.0632204003774536,
+      "steady_state_mean": 0.10337085710110505,
+      "steady_state_rmse": 0.15255494107673961,
+      "steady_state_std": 0.11219392117717614,
+      "x_axis_rmse": 0.2604767169211619,
+      "y_axis_rmse": 0.28953239717594226,
+      "z_axis_rmse": 0.20949061964390012,
+      "max_displacement": 0.7506033342245513
+    }
+  }
+]

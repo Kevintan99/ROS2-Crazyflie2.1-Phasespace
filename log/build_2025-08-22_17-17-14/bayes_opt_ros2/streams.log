@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+[0.039s] Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+[0.047s] Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2
+[0.052s] -- Install configuration: ""
+[0.052s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/lib/bayes_opt_ros2/ros2_bayes_opt_node.py
+[0.052s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/package_run_dependencies/bayes_opt_ros2
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/parent_prefix_path/bayes_opt_ros2
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.sh
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.dsv
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.sh
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.dsv
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.bash
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.sh
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.zsh
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.dsv
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.dsv
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/packages/bayes_opt_ros2
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config.cmake
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config-version.cmake
+[0.053s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.xml
+[0.056s] Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2

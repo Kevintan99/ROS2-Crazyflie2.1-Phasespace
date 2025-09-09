@@ -1,0 +1,85 @@
+# config/fast_pid_optimization_config.yaml
+# Configuration for water mission trajectory PID optimization
+# ROS2-compliant parameter file format
+
+bayes_opt_node:
+  ros__parameters:
+    # PID Parameters to optimize
+    param_names: ["kp_x", "kp_y", "kp_z"]
+    
+    # Parameter bounds optimized for loaded flight with oscillation mitigation
+    # Conservative bounds to prevent instability with load dynamics
+    lower_bounds: [1.2, 1.2, 1.6]     # Higher lower bounds for stability
+    upper_bounds: [2.8, 2.8, 3.2]     # Conservative upper bounds to prevent overshoot
+    
+    # Bayesian Optimization settings
+    n_iter: 20                         # Total optimization iterations
+    init_points: 5                     # Random exploration points before optimization
+    acquisition_type: "ei"             # Expected Improvement acquisition function
+    xi: 0.1                           # Exploration parameter (higher = more exploration)
+    kappa: 2.576                      # UCB exploration factor (if using UCB)
+    random_state: 12345               # Random seed for reproducibility
+    objective_mode: "min"             # Minimize tracking error
+    timeout_sec: 300.0                # 5 minute timeout per experiment
+    
+    # ROS 2 Topics for communication
+    topics.params_out: "/fast_pid_opt/params_to_test"
+    topics.result_in: "/fast_pid_opt/experiment_result"
+    topics.allow_in: "/fast_pid_opt/allow_step"
+    topics.status: "/fast_pid_opt/status"
+    topics.best_params: "/fast_pid_opt/best_params"
+    topics.best_value: "/fast_pid_opt/best_value"
+    
+    # Hardware Configuration
+    crazyflie_uri: "radio://0/80/2M/E7E7E7E7E7"  # Update to match your radio URI
+    phasespace_rigid_body_id: 3                  # Update to match your rigid body ID
+    enable_coordinate_transform: true
+    send_full_pose: false
+    
+    # Flight safety limits
+    max_velocity_x: 0.6               # Max x velocity (m/s)
+    max_velocity_y: 0.6               # Max y velocity (m/s) 
+    max_velocity_z: 0.4               # Max z velocity (m/s)
+    max_roll_angle: 25.0              # Max roll angle (degrees)
+    max_pitch_angle: 25.0             # Max pitch angle (degrees)
+    
+    # Workspace bounds
+    workspace_x_min: -0.2
+    workspace_x_max: 0.7
+    workspace_y_min: -0.2
+    workspace_y_max: 0.7
+    workspace_z_min: 0.1
+    workspace_z_max: 0.8
+    
+    # Load simulation parameters
+    bucket_offset: 0.2                # Simulated bucket distance below drone (meters)
+    load_mass: 0.1                    # Expected load mass (kg)
+    load_length: 0.3                  # Load cable/attachment length (meters)
+    
+    # Mission timing
+    total_duration: 45.0              # Total trajectory execution time
+    takeoff_duration: 2.5             # Time for takeoff
+    landing_duration: 2.5             # Time for landing
+    
+    # Performance criteria
+    drone_tracking_weight: 0.7        # Weight for drone waypoint tracking (70%)
+    bucket_precision_weight: 0.3      # Weight for bucket precision (30%)
+    excellent_threshold: 0.08         # Error < 8cm = excellent performance
+    good_threshold: 0.15              # Error < 15cm = good performance  
+    acceptable_threshold: 0.25        # Error < 25cm = acceptable performance
+    max_acceptable_error: 0.25        # Maximum tolerable tracking error
+    excursion_penalty_factor: 1.5     # Penalty multiplier for large errors
+    
+    # Logging settings
+    log_frequency: 25.0               # Hz - position logging frequency
+    oscillation_analysis: true        # Enable oscillation detection
+    frequency_analysis_window: 3.0    # Seconds for frequency analysis
+    oscillation_threshold: 0.05       # Oscillation detection threshold (m)
+    
+    # Fixed PID values (not optimized)
+    ki_x: 0.15                        # Fixed integral gain X
+    ki_y: 0.15                        # Fixed integral gain Y  
+    ki_z: 0.2                         # Fixed integral gain Z
+    kd_x: 0.45                        # Fixed derivative gain X
+    kd_y: 0.45                        # Fixed derivative gain Y
+    kd_z: 0.55                        # Fixed derivative gain Z

@@ -1,0 +1,6 @@
+Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/bayes_opt_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/bayes_opt_ros2
+Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/bayes_opt_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/bayes_opt_ros2
+Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2
+Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2

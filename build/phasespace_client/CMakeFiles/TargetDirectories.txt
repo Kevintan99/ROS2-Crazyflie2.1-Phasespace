@@ -1,0 +1,12 @@
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/uninstall.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/phasespace_client_uninstall.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/phasespace_client.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/phasespace_client_node.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/listener.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/test.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/edit_cache.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/rebuild_cache.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/list_install_components.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/install.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/install/local.dir
+/home/kevin/crazyflie_phasespace/build/phasespace_client/CMakeFiles/install/strip.dir

@@ -1,0 +1,33 @@
+bayes_opt_node:
+  ros__parameters:
+    # Fast-style PID optimization for WATER MISSION (Crazyflie)
+    # Keep it lean like fast_pid_optimization_config.yaml, but with bounds/timeouts suited to load-aware trajectory
+    
+    # Parameters to optimize (Kp only; Ki/Kd fixed in client code)
+    param_names: ["kp_x", "kp_y", "kp_z"]
+    
+    # Bounds tuned for load-aware flight: x/y centered ~1.8; z needs slightly higher headroom
+    lower_bounds: [1.4, 1.4, 1.6]
+    upper_bounds: [2.6, 2.6, 3.0]
+    
+    # Fast-but-safe BO settings
+    n_iter: 16
+    init_points: 5
+    acquisition_type: "ei"
+    xi: 0.06
+    kappa: 1.0
+    random_state: 123
+    
+    # Minimize tracking error published by the experiment client
+    objective_mode: "min"
+    
+    # Allow full mission (≈45 s) + margin
+    timeout_sec: 120.0
+    
+    # Topics — must match the water mission client
+    topics.params_out: "/fast_pid_opt/params_to_test"
+    topics.result_in: "/fast_pid_opt/experiment_result"
+    topics.allow_in: "/fast_pid_opt/allow_step"
+    topics.status: "/fast_pid_opt/status"
+    topics.best_params: "/fast_pid_opt/best_params"
+    topics.best_value: "/fast_pid_opt/best_value"

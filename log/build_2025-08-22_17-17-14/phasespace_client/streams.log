@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/kevin/crazyflie_phasespace/build/phasespace_client': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/phasespace_client -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target phasespace_client[0m
+[0.069s] [ 33%] Built target listener
+[0.073s] [ 66%] Built target phasespace_client
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target phasespace_client_node[0m
+[0.103s] [100%] Built target phasespace_client_node
+[0.113s] Invoked command in '/home/kevin/crazyflie_phasespace/build/phasespace_client' returned '0': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/phasespace_client -- -j8 -l8
+[0.114s] Invoking command in '/home/kevin/crazyflie_phasespace/build/phasespace_client': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/phasespace_client
+[0.121s] -- Install configuration: "Release"
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/listener
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/phasespace_client_node
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/test_bridge.launch.py
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/phasespace.launch.py
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/package_run_dependencies/phasespace_client
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/parent_prefix_path/phasespace_client
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.sh
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.dsv
+[0.121s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.bash
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.sh
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.zsh
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.dsv
+[0.122s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.dsv
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/packages/phasespace_client
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig.cmake
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig-version.cmake
+[0.122s] -- Up-to-date: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.xml
+[0.123s] Invoked command in '/home/kevin/crazyflie_phasespace/build/phasespace_client' returned '0': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/phasespace_client

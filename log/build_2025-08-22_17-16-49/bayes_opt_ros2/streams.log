@@ -1,0 +1,46 @@
+[0.006s] Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/bayes_opt_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/bayes_opt_ros2
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.366s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.579s] -- Configuring done
+[0.581s] -- Generating done
+[0.581s] [33mCMake Warning:
+[0.581s]   Manually-specified variables were not used by the project:
+[0.581s] 
+[0.581s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.581s] 
+[0.581s] [0m
+[0.582s] -- Build files have been written to: /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2
+[0.586s] Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/bayes_opt_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/bayes_opt_ros2
+[0.587s] Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+[0.618s] Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2 -- -j8 -l8
+[0.626s] Invoking command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2
+[0.632s] -- Install configuration: ""
+[0.632s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/lib/bayes_opt_ros2/ros2_bayes_opt_node.py
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/package_run_dependencies/bayes_opt_ros2
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/parent_prefix_path/bayes_opt_ros2
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.sh
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/ament_prefix_path.dsv
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.sh
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/environment/path.dsv
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.bash
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.sh
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.zsh
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/local_setup.dsv
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.dsv
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/ament_index/resource_index/packages/bayes_opt_ros2
+[0.633s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config.cmake
+[0.634s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/cmake/bayes_opt_ros2Config-version.cmake
+[0.634s] -- Installing: /home/kevin/crazyflie_phasespace/install/bayes_opt_ros2/share/bayes_opt_ros2/package.xml
+[0.635s] Invoked command in '/home/kevin/crazyflie_phasespace/build/bayes_opt_ros2' returned '0': /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/bayes_opt_ros2

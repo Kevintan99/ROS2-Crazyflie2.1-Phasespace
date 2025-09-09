@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2e79cc580c1a98774d36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "phasespace_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-Release-8d8c8ae21fc8530e9ff3.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phasespace_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phasespace_client-Release-af5c55039e73dee13c99.json",
+					"name" : "phasespace_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phasespace_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phasespace_client_node-Release-b95cddb00bd6ffb9127b.json",
+					"name" : "phasespace_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phasespace_client_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phasespace_client_uninstall-Release-0d21abbdb67eb10961ea.json",
+					"name" : "phasespace_client_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4c12d493ab164eded0b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kevin/crazyflie_phasespace/build/phasespace_client",
+		"source" : "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

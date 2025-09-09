@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "phasespace_msgs__py",
+		"source" : "/home/kevin/crazyflie_phasespace/build/phasespace_msgs/phasespace_msgs__py"
+	}
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "20250901_181718",
+  "start_time": "2025-09-01T18:17:18.032307",
+  "optimization_config": {
+    "mission_type": "water_collection_trajectory",
+    "waypoints": [
+      {
+        "name": "Above Water",
+        "position": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "duration": 6.0,
+        "type": "drone"
+      },
+      {
+        "name": "Water Target",
+        "position": [
+          0.5,
+          0.5,
+          0.25
+        ],
+        "duration": 5.0,
+        "type": "bucket"
+      },
+      {
+        "name": "Above Water (Return)",
+        "position": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "duration": 5.0,
+        "type": "drone"
+      },
+      {
+        "name": "Lift Target",
+        "position": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "duration": 7.0,
+        "type": "drone"
+      }
+    ],
+    "source": "simulation_export"
+  }
+}

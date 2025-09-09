@@ -1,0 +1,11 @@
+{
+  "package_name": "phasespace_msgs",
+  "non_idl_tuples": [
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Camera.msg",
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Cameras.msg",
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Marker.msg",
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Markers.msg",
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Rigid.msg",
+    "/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_msgs:msg/Rigids.msg"
+  ]
+}

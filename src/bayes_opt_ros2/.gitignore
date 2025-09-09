@@ -1,0 +1,236 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ROS 2
+install/
+build/
+log/
+.ros/
+
+# ROS 2 Python cache
+*.pyc
+__pycache__/
+
+# ROS 2 launch files cache
+.launch_cache/
+
+# ROS 2 bag files
+*.db3
+*.db3-*
+
+# ROS 2 parameter files
+*.yaml.bak
+*.yaml~
+
+# Optimization and experiment data
+cache/
+flight_logs/
+*.json
+!package.json
+!CMakeLists.txt
+!package.xml
+
+# Experience database
+pid_experience_db.json
+optimization_cache.json
+experiment_results.json
+
+# Flight data logs
+*.csv
+*.log
+*.txt
+!README*.txt
+!README*.md
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Debug files
+*.debug
+debug/
+
+# Performance profiling
+*.prof
+*.profile
+
+# Memory dumps
+*.dump
+*.dmp
+
+# System files
+.fuse_hidden*
+.nfs*
+
+# Network files
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log.*
+
+# Data files
+data/
+datasets/
+*.dat
+*.bin
+
+# Model files
+*.pkl
+*.pickle
+*.model
+*.h5
+*.hdf5
+
+# Configuration backups
+config/*.bak
+config/*.backup
+config/*.old
+
+# Test outputs
+test_outputs/
+test_results/
+*.test
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Package builds
+*.tar.gz
+*.zip
+*.rar
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+.temp/

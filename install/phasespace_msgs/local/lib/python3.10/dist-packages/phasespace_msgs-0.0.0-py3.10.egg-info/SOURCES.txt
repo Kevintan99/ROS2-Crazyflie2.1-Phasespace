@@ -1,0 +1,13 @@
+setup.py
+phasespace_msgs/__init__.py
+phasespace_msgs.egg-info/PKG-INFO
+phasespace_msgs.egg-info/SOURCES.txt
+phasespace_msgs.egg-info/dependency_links.txt
+phasespace_msgs.egg-info/top_level.txt
+phasespace_msgs/msg/__init__.py
+phasespace_msgs/msg/_camera.py
+phasespace_msgs/msg/_cameras.py
+phasespace_msgs/msg/_marker.py
+phasespace_msgs/msg/_markers.py
+phasespace_msgs/msg/_rigid.py
+phasespace_msgs/msg/_rigids.py

@@ -1,0 +1,115 @@
+[0.008s] Invoking command in '/home/kevin/crazyflie_phasespace/build/phasespace_client': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/phasespace_client
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.430s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.455s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.653s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Looking for pthread.h
+[0.754s] -- Looking for pthread.h - found
+[0.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.823s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.824s] -- Found Threads: TRUE  
+[0.875s] -- Found phasespace_msgs: 0.0.0 (/home/kevin/crazyflie_phasespace/install/phasespace_msgs/share/phasespace_msgs/cmake)
+[0.888s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.950s] -- Configuring done
+[0.974s] -- Generating done
+[0.978s] -- Build files have been written to: /home/kevin/crazyflie_phasespace/build/phasespace_client
+[0.989s] Invoked command in '/home/kevin/crazyflie_phasespace/build/phasespace_client' returned '0': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client -DCMAKE_INSTALL_PREFIX=/home/kevin/crazyflie_phasespace/install/phasespace_client
+[0.990s] Invoking command in '/home/kevin/crazyflie_phasespace/build/phasespace_client': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/phasespace_client -- -j8 -l8
+[1.039s] [ 33%] [32mBuilding CXX object CMakeFiles/phasespace_client.dir/src/psnode.cpp.o[0m
+[1.040s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.788s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.789s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.789s]                  from [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:2[m[K:
+[2.789s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:[m[K In member function ‘[01m[Kvoid ListenerNode::markerCallback(phasespace_msgs::msg::Markers_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.789s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:47:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kphasespace_msgs::msg::Marker_<std::allocator<void> >::_time_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.789s]    47 |         [01;35m[K"t=%f id=%d [%f %f %f] cond=%f"[m[K,
+[2.789s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.789s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/listener.cpp:47:13:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.789s]    47 |         "t=[01;36m[K%f[m[K id=%d [%f %f %f] cond=%f",
+[2.789s]       |            [01;36m[K~^[m[K
+[2.789s]       |             [01;36m[K|[m[K
+[2.789s]       |             [01;36m[Kdouble[m[K
+[2.789s]       |            [32m[K%ld[m[K
+[2.931s] In file included from [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11[m[K:
+[2.931s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:[m[K In function ‘[01m[Kint seek_next(std::string*, int, char)[m[K’:
+[2.931s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:514:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.932s]   514 | [01;35m[K}[m[K
+[2.932s]       | [01;35m[K^[m[K
+[4.891s] In file included from [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11[m[K:
+[4.891s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:[m[K In function ‘[01m[Kstd::string to_string(RSJresourceType)[m[K’:
+[4.891s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:65:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.891s]    65 | [01;35m[K}[m[K
+[4.891s]       | [01;35m[K^[m[K
+[8.312s] [ 50%] [32m[1mLinking CXX executable listener[0m
+[8.458s] [ 50%] Built target listener
+[9.235s] [ 66%] [32m[1mLinking CXX static library libphasespace_client.a[0m
+[9.493s] [ 66%] Built target phasespace_client
+[9.512s] [ 83%] [32mBuilding CXX object CMakeFiles/phasespace_client_node.dir/src/psnode.cpp.o[0m
+[11.188s] In file included from [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11[m[K:
+[11.188s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:[m[K In function ‘[01m[Kint seek_next(std::string*, int, char)[m[K’:
+[11.189s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:514:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[11.189s]   514 | [01;35m[K}[m[K
+[11.189s]       | [01;35m[K^[m[K
+[13.069s] In file included from [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/src/psnode.cpp:11[m[K:
+[13.069s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:[m[K In function ‘[01m[Kstd::string to_string(RSJresourceType)[m[K’:
+[13.069s] [01m[K/home/kevin/crazyflie_phasespace/src/phasespace_ros_node-main 2/phasespace_ros_node-main/phasespace_client/include/RSJparser.tcc:65:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[13.070s]    65 | [01;35m[K}[m[K
+[13.070s]       | [01;35m[K^[m[K
+[17.288s] [100%] [32m[1mLinking CXX executable phasespace_client_node[0m
+[17.392s] [100%] Built target phasespace_client_node
+[17.401s] Invoked command in '/home/kevin/crazyflie_phasespace/build/phasespace_client' returned '0': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kevin/crazyflie_phasespace/build/phasespace_client -- -j8 -l8
+[17.402s] Invoking command in '/home/kevin/crazyflie_phasespace/build/phasespace_client': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/phasespace_client
+[17.408s] -- Install configuration: "Release"
+[17.408s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/listener
+[17.408s] -- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/listener" to ""
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/phasespace_client_node
+[17.409s] -- Set runtime path of "/home/kevin/crazyflie_phasespace/install/phasespace_client/lib/phasespace_client/phasespace_client_node" to ""
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/test_bridge.launch.py
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/launch/phasespace.launch.py
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/package_run_dependencies/phasespace_client
+[17.409s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/parent_prefix_path/phasespace_client
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.sh
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/ament_prefix_path.dsv
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.sh
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/environment/path.dsv
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.bash
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.sh
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.zsh
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/local_setup.dsv
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.dsv
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/ament_index/resource_index/packages/phasespace_client
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig.cmake
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/cmake/phasespace_clientConfig-version.cmake
+[17.410s] -- Installing: /home/kevin/crazyflie_phasespace/install/phasespace_client/share/phasespace_client/package.xml
+[17.412s] Invoked command in '/home/kevin/crazyflie_phasespace/build/phasespace_client' returned '0': AMENT_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kevin/crazyflie_phasespace/install/phasespace_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kevin/crazyflie_phasespace/build/phasespace_client
